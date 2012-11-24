@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+@synthesize testView;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

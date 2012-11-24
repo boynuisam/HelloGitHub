@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 
-@property(strong) UIView* newView;
+@property(strong) UIView* testView;
 
 @end
