@@ -31,4 +31,10 @@
     STAssertEquals(3, 1, @"Testing");
 }
 
+- (void)testExampleSecond
+{
+    //STFail(@"Unit tests are not implemented yet in HelloGitHubTests");
+    STAssertEquals(1, 1, @"Testing equal TRUE");
+}
+
 @end
