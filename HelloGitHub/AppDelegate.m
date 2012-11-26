@@ -13,10 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    NSLog(@"My frst github");
-    NSLog(@"Add new second line :D");
-    NSLog(@"Add new second line 2 :D");
-    NSLog(@"Fix bug :D");
+    NSLog(@"Add new line");
     return YES;
 }
 							
