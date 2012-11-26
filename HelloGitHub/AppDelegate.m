@@ -15,7 +15,8 @@
     // Override point for customization after application launch.
     NSLog(@"My frst github");
     NSLog(@"Add new second line :D");
-    NSLog(@"Add new second line 2 :D"); 
+    NSLog(@"Add new second line 2 :D");
+    NSLog(@"Add new second line 2 :D")bug1;
     return YES;
 }
 							
