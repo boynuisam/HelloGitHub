@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00406C0016634884003C6B76 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00406BFF16634884003C6B76 /* SenTestingKit.framework */; };
+		00406C0116634884003C6B76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237723165F8119006A9467 /* UIKit.framework */; };
+		00406C0216634884003C6B76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237725165F8119006A9467 /* Foundation.framework */; };
+		00406C0816634884003C6B76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00406C0616634884003C6B76 /* InfoPlist.strings */; };
+		00406C0B16634884003C6B76 /* HelloGitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00406C0A16634884003C6B76 /* HelloGitHubTests.m */; };
 		91237724165F8119006A9467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237723165F8119006A9467 /* UIKit.framework */; };
 		91237726165F8119006A9467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237725165F8119006A9467 /* Foundation.framework */; };
 		91237728165F8119006A9467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237727165F8119006A9467 /* CoreGraphics.framework */; };
@@ -21,6 +26,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00406BFE16634884003C6B76 /* HelloGitHubTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloGitHubTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00406BFF16634884003C6B76 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		00406C0516634884003C6B76 /* HelloGitHubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloGitHubTests-Info.plist"; sourceTree = "<group>"; };
+		00406C0716634884003C6B76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		00406C0916634884003C6B76 /* HelloGitHubTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloGitHubTests.h; sourceTree = "<group>"; };
+		00406C0A16634884003C6B76 /* HelloGitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloGitHubTests.m; sourceTree = "<group>"; };
+		00406C0C16634884003C6B76 /* HelloGitHubTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloGitHubTests-Prefix.pch"; sourceTree = "<group>"; };
 		9123771F165F8119006A9467 /* HelloGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91237723165F8119006A9467 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91237725165F8119006A9467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,6 +52,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		00406BFA16634884003C6B76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00406C0016634884003C6B76 /* SenTestingKit.framework in Frameworks */,
+				00406C0116634884003C6B76 /* UIKit.framework in Frameworks */,
+				00406C0216634884003C6B76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9123771C165F8119006A9467 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,10 +75,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00406C0316634884003C6B76 /* HelloGitHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				00406C0916634884003C6B76 /* HelloGitHubTests.h */,
+				00406C0A16634884003C6B76 /* HelloGitHubTests.m */,
+				00406C0416634884003C6B76 /* Supporting Files */,
+			);
+			path = HelloGitHubTests;
+			sourceTree = "<group>";
+		};
+		00406C0416634884003C6B76 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00406C0516634884003C6B76 /* HelloGitHubTests-Info.plist */,
+				00406C0616634884003C6B76 /* InfoPlist.strings */,
+				00406C0C16634884003C6B76 /* HelloGitHubTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		91237714165F8119006A9467 = {
 			isa = PBXGroup;
 			children = (
 				91237729165F8119006A9467 /* HelloGitHub */,
+				00406C0316634884003C6B76 /* HelloGitHubTests */,
 				91237722165F8119006A9467 /* Frameworks */,
 				91237720165F8119006A9467 /* Products */,
 			);
@@ -66,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				9123771F165F8119006A9467 /* HelloGitHub.app */,
+				00406BFE16634884003C6B76 /* HelloGitHubTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +120,7 @@
 				91237723165F8119006A9467 /* UIKit.framework */,
 				91237725165F8119006A9467 /* Foundation.framework */,
 				91237727165F8119006A9467 /* CoreGraphics.framework */,
+				00406BFF16634884003C6B76 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,6 +155,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		00406BFD16634884003C6B76 /* HelloGitHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00406C0F16634884003C6B76 /* Build configuration list for PBXNativeTarget "HelloGitHubTests" */;
+			buildPhases = (
+				00406BF916634884003C6B76 /* Sources */,
+				00406BFA16634884003C6B76 /* Frameworks */,
+				00406BFB16634884003C6B76 /* Resources */,
+				00406BFC16634884003C6B76 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloGitHubTests;
+			productName = HelloGitHubTests;
+			productReference = 00406BFE16634884003C6B76 /* HelloGitHubTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 		9123771E165F8119006A9467 /* HelloGitHub */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 91237743165F8119006A9467 /* Build configuration list for PBXNativeTarget "HelloGitHub" */;
@@ -149,11 +212,20 @@
 			projectRoot = "";
 			targets = (
 				9123771E165F8119006A9467 /* HelloGitHub */,
+				00406BFD16634884003C6B76 /* HelloGitHubTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		00406BFB16634884003C6B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00406C0816634884003C6B76 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9123771D165F8119006A9467 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,7 +240,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00406BFC16634884003C6B76 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		00406BF916634884003C6B76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00406C0B16634884003C6B76 /* HelloGitHubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9123771B165F8119006A9467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -182,6 +278,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		00406C0616634884003C6B76 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00406C0716634884003C6B76 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		9123772C165F8119006A9467 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -201,6 +305,36 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		00406C0D16634884003C6B76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloGitHubTests/HelloGitHubTests-Prefix.pch";
+				INFOPLIST_FILE = "HelloGitHubTests/HelloGitHubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		00406C0E16634884003C6B76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloGitHubTests/HelloGitHubTests-Prefix.pch";
+				INFOPLIST_FILE = "HelloGitHubTests/HelloGitHubTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 		91237741165F8119006A9467 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -276,6 +410,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		00406C0F16634884003C6B76 /* Build configuration list for PBXNativeTarget "HelloGitHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00406C0D16634884003C6B76 /* Debug */,
+				00406C0E16634884003C6B76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		91237719165F8119006A9467 /* Build configuration list for PBXProject "HelloGitHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -292,6 +434,7 @@
 				91237745165F8119006A9467 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
