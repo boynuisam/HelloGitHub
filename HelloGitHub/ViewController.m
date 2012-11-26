@@ -20,6 +20,7 @@
 {
     [super viewDidLoad];
 	NSLog(@"Fix bug :D");// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"Create build stable");
 }
 
 - (void)didReceiveMemoryWarning
