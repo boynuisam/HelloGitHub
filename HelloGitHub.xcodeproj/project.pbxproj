@@ -12,6 +12,17 @@
 		00406C0216634884003C6B76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237725165F8119006A9467 /* Foundation.framework */; };
 		00406C0816634884003C6B76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00406C0616634884003C6B76 /* InfoPlist.strings */; };
 		00406C0B16634884003C6B76 /* HelloGitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00406C0A16634884003C6B76 /* HelloGitHubTests.m */; };
+		0053EA081664A599003B49FF /* form.template in Resources */ = {isa = PBXBuildFile; fileRef = 0053E9F51664A599003B49FF /* form.template */; };
+		0053EA091664A599003B49FF /* 1.run.zip in Resources */ = {isa = PBXBuildFile; fileRef = 0053E9F91664A599003B49FF /* 1.run.zip */; };
+		0053EA0A1664A599003B49FF /* assertions.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053E9FF1664A599003B49FF /* assertions.js */; };
+		0053EA0B1664A599003B49FF /* lang-ext.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA001664A599003B49FF /* lang-ext.js */; };
+		0053EA0C1664A599003B49FF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0053EA011664A599003B49FF /* LICENSE */; };
+		0053EA0D1664A599003B49FF /* run-test in Resources */ = {isa = PBXBuildFile; fileRef = 0053EA021664A599003B49FF /* run-test */; };
+		0053EA0E1664A599003B49FF /* screen.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA031664A599003B49FF /* screen.js */; };
+		0053EA0F1664A599003B49FF /* test.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA041664A599003B49FF /* test.js */; };
+		0053EA101664A599003B49FF /* tuneup.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA051664A599003B49FF /* tuneup.js */; };
+		0053EA111664A599003B49FF /* uiautomation-ext.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA061664A599003B49FF /* uiautomation-ext.js */; };
+		0053EA121664A599003B49FF /* wip.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA071664A599003B49FF /* wip.js */; };
 		91237724165F8119006A9467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237723165F8119006A9467 /* UIKit.framework */; };
 		91237726165F8119006A9467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237725165F8119006A9467 /* Foundation.framework */; };
 		91237728165F8119006A9467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237727165F8119006A9467 /* CoreGraphics.framework */; };
@@ -33,6 +44,17 @@
 		00406C0916634884003C6B76 /* HelloGitHubTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloGitHubTests.h; sourceTree = "<group>"; };
 		00406C0A16634884003C6B76 /* HelloGitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloGitHubTests.m; sourceTree = "<group>"; };
 		00406C0C16634884003C6B76 /* HelloGitHubTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloGitHubTests-Prefix.pch"; sourceTree = "<group>"; };
+		0053E9F51664A599003B49FF /* form.template */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = form.template; sourceTree = "<group>"; };
+		0053E9F91664A599003B49FF /* 1.run.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = 1.run.zip; sourceTree = "<group>"; };
+		0053E9FF1664A599003B49FF /* assertions.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = assertions.js; sourceTree = "<group>"; };
+		0053EA001664A599003B49FF /* lang-ext.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "lang-ext.js"; sourceTree = "<group>"; };
+		0053EA011664A599003B49FF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		0053EA021664A599003B49FF /* run-test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "run-test"; sourceTree = "<group>"; };
+		0053EA031664A599003B49FF /* screen.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = screen.js; sourceTree = "<group>"; };
+		0053EA041664A599003B49FF /* test.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = test.js; sourceTree = "<group>"; };
+		0053EA051664A599003B49FF /* tuneup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tuneup.js; sourceTree = "<group>"; };
+		0053EA061664A599003B49FF /* uiautomation-ext.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uiautomation-ext.js"; sourceTree = "<group>"; };
+		0053EA071664A599003B49FF /* wip.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = wip.js; sourceTree = "<group>"; };
 		9123771F165F8119006A9467 /* HelloGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91237723165F8119006A9467 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91237725165F8119006A9467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +117,96 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0053E9F31664A599003B49FF /* ui_testing */ = {
+			isa = PBXGroup;
+			children = (
+				0053E9F41664A599003B49FF /* Instruments1.trace */,
+				0053E9FD1664A599003B49FF /* lib */,
+				0053EA071664A599003B49FF /* wip.js */,
+			);
+			path = ui_testing;
+			sourceTree = "<group>";
+		};
+		0053E9F41664A599003B49FF /* Instruments1.trace */ = {
+			isa = PBXGroup;
+			children = (
+				0053E9F51664A599003B49FF /* form.template */,
+				0053E9F61664A599003B49FF /* instrument_data */,
+				0053E9FA1664A599003B49FF /* shared_data */,
+				0053E9FC1664A599003B49FF /* Trace1.run */,
+			);
+			path = Instruments1.trace;
+			sourceTree = "<group>";
+		};
+		0053E9F61664A599003B49FF /* instrument_data */ = {
+			isa = PBXGroup;
+			children = (
+				0053E9F71664A599003B49FF /* 1E2B732A-6DCA-48F6-9272-CF92DECBC024 */,
+			);
+			path = instrument_data;
+			sourceTree = "<group>";
+		};
+		0053E9F71664A599003B49FF /* 1E2B732A-6DCA-48F6-9272-CF92DECBC024 */ = {
+			isa = PBXGroup;
+			children = (
+				0053E9F81664A599003B49FF /* run_data */,
+			);
+			path = "1E2B732A-6DCA-48F6-9272-CF92DECBC024";
+			sourceTree = "<group>";
+		};
+		0053E9F81664A599003B49FF /* run_data */ = {
+			isa = PBXGroup;
+			children = (
+				0053E9F91664A599003B49FF /* 1.run.zip */,
+			);
+			path = run_data;
+			sourceTree = "<group>";
+		};
+		0053E9FA1664A599003B49FF /* shared_data */ = {
+			isa = PBXGroup;
+			children = (
+				0053E9FB1664A599003B49FF /* 1.run */,
+			);
+			path = shared_data;
+			sourceTree = "<group>";
+		};
+		0053E9FB1664A599003B49FF /* 1.run */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 1.run;
+			sourceTree = "<group>";
+		};
+		0053E9FC1664A599003B49FF /* Trace1.run */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Trace1.run;
+			sourceTree = "<group>";
+		};
+		0053E9FD1664A599003B49FF /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				0053E9FE1664A599003B49FF /* tuneup_js */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		0053E9FE1664A599003B49FF /* tuneup_js */ = {
+			isa = PBXGroup;
+			children = (
+				0053E9FF1664A599003B49FF /* assertions.js */,
+				0053EA001664A599003B49FF /* lang-ext.js */,
+				0053EA011664A599003B49FF /* LICENSE */,
+				0053EA021664A599003B49FF /* run-test */,
+				0053EA031664A599003B49FF /* screen.js */,
+				0053EA041664A599003B49FF /* test.js */,
+				0053EA051664A599003B49FF /* tuneup.js */,
+				0053EA061664A599003B49FF /* uiautomation-ext.js */,
+			);
+			path = tuneup_js;
+			sourceTree = "<group>";
+		};
 		91237714165F8119006A9467 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +214,7 @@
 				00406C0316634884003C6B76 /* HelloGitHubTests */,
 				91237722165F8119006A9467 /* Frameworks */,
 				91237720165F8119006A9467 /* Products */,
+				0053E9F31664A599003B49FF /* ui_testing */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,6 +348,10 @@
 				91237738165F8119006A9467 /* Default@2x.png in Resources */,
 				9123773A165F8119006A9467 /* Default-568h@2x.png in Resources */,
 				9123773D165F8119006A9467 /* MainStoryboard.storyboard in Resources */,
+				0053EA081664A599003B49FF /* form.template in Resources */,
+				0053EA091664A599003B49FF /* 1.run.zip in Resources */,
+				0053EA0C1664A599003B49FF /* LICENSE in Resources */,
+				0053EA0D1664A599003B49FF /* run-test in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +389,13 @@
 				91237730165F8119006A9467 /* main.m in Sources */,
 				91237734165F8119006A9467 /* AppDelegate.m in Sources */,
 				91237740165F8119006A9467 /* ViewController.m in Sources */,
+				0053EA0A1664A599003B49FF /* assertions.js in Sources */,
+				0053EA0B1664A599003B49FF /* lang-ext.js in Sources */,
+				0053EA0E1664A599003B49FF /* screen.js in Sources */,
+				0053EA0F1664A599003B49FF /* test.js in Sources */,
+				0053EA101664A599003B49FF /* tuneup.js in Sources */,
+				0053EA111664A599003B49FF /* uiautomation-ext.js in Sources */,
+				0053EA121664A599003B49FF /* wip.js in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +543,7 @@
 				00406C0E16634884003C6B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91237719165F8119006A9467 /* Build configuration list for PBXProject "HelloGitHub" */ = {
 			isa = XCConfigurationList;
