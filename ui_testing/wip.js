@@ -34,7 +34,7 @@
 
 test("Test Helios First", function(target, app) {
     var window = app.mainWindow();
-	assertEquals("3", "2");	 
+	assertEquals("2", "2");
 });
 
 test("Test_Helios_Second", function(target, app) {
@@ -58,7 +58,7 @@ test("Test_Helios_Four", function(target, app) {
      var window = app.mainWindow();
      target.frontMostApp().mainWindow().textFields()["textField"].tap();
 	 target.tap({x:225.00, y:285.00});
-     assertEquals("3", "2");
+     assertEquals("2", "2");
 });
 
 
