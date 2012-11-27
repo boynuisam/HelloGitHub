@@ -37,6 +37,15 @@ test("Test 1", function(target, app) {
 	assertEquals("3", "2");	 
 });
 
+test("Test 2", function(target, app) {
+    var window = app.mainWindow();
+	 
+	target.frontMostApp().mainWindow().textFields()["textField"].tap();
+	 target.frontMostApp().keyboard().typeString("asdf");
+	 target.tap({x:225.00, y:285.00});	 
+	assertEquals("2", "2");	 
+});
+
 
 
 /*test("Test search two companies", function(target, app) {
