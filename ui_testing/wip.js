@@ -43,7 +43,7 @@ test("Test_Helios_Second", function(target, app) {
 	target.frontMostApp().mainWindow().textFields()["textField"].tap();
 	 target.frontMostApp().keyboard().typeString("asdf");
 	 target.tap({x:225.00, y:285.00});	 
-	assertEquals("2", "2");	 
+	assertEquals("1", "2");
 });
 
 test("Test_Helios_Third", function(target, app) {
@@ -51,7 +51,7 @@ test("Test_Helios_Third", function(target, app) {
 	 
      target.frontMostApp().mainWindow().textFields()["textField"].tap();
 	 target.tap({x:225.00, y:285.00});
-     assertEquals("2", "2");
+     assertEquals("3", "2");
 });
 
 test("Test_Helios_Four", function(target, app) {
