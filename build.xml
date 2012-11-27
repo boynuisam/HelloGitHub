@@ -11,10 +11,7 @@
             <arg value="-p"/>
             <arg value="helios"/>
             <arg value="/devtools/iOSBuild/login.keychain"/>
-        </exec>
-        
-        <echo message="Delete build dir..."/>
-        <delete dir="${basedir}/build" />
+        </exec>        
     </target>                   
     <target name="test" depends="base">
         <echo message="Execute xcodebuild debug..."/>
