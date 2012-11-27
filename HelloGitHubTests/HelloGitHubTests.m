@@ -28,13 +28,13 @@
 {
     //STFail(@"Unit tests are not implemented yet in HelloGitHubTests");
     //STFail(@"####Write wrong test");
-    STAssertEquals(2, 1, @"Testing");
+    STAssertEquals(1, 1, @"Testing");
 }
 
 - (void)testExampleSecond
 {
     //STFail(@"Unit tests are not implemented yet in HelloGitHubTests");
-    STAssertEquals(2, 1, @"Testing equal TRUE");
+    STAssertEquals(1, 1, @"Testing equal TRUE");
 }
 
 - (void)testExampleThird
