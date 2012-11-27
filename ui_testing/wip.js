@@ -32,12 +32,12 @@
 });
 */
 
-test("Test 1", function(target, app) {
+test("Test Helios First", function(target, app) {
     var window = app.mainWindow();
 	assertEquals("3", "2");	 
 });
 
-test("Test 2", function(target, app) {
+test("Test_Helios_Second", function(target, app) {
     var window = app.mainWindow();
 	 
 	target.frontMostApp().mainWindow().textFields()["textField"].tap();
