@@ -28,16 +28,14 @@
         
         <exec executable="xcodebuild">
             <arg value="-target"/>
-            <arg value="iTeledata"/>
+            <arg value="HelloGitHub"/>
             <arg value="-sdk"/>
             <arg value="iphonesimulator5.1"/>
             <arg value="-configuration"/>
             <arg value="Debug"/>
             <arg value="build"/>
         </exec>
-        
-        <mkdir dir="${basedir}/build/TestUIResult" />
-        
+                
         <exec executable="instruments">
             <arg value="-t"/>
             <arg value="${devtools}/iOSBuild/Automation.tracetemplate"/>
