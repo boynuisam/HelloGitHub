@@ -23,6 +23,7 @@
 		0053EA101664A599003B49FF /* tuneup.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA051664A599003B49FF /* tuneup.js */; };
 		0053EA111664A599003B49FF /* uiautomation-ext.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA061664A599003B49FF /* uiautomation-ext.js */; };
 		0053EA121664A599003B49FF /* wip.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA071664A599003B49FF /* wip.js */; };
+		0053EA1D1664DF8E003B49FF /* build.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0053EA1C1664DF8E003B49FF /* build.xml */; };
 		91237724165F8119006A9467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237723165F8119006A9467 /* UIKit.framework */; };
 		91237726165F8119006A9467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237725165F8119006A9467 /* Foundation.framework */; };
 		91237728165F8119006A9467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237727165F8119006A9467 /* CoreGraphics.framework */; };
@@ -55,6 +56,7 @@
 		0053EA051664A599003B49FF /* tuneup.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = tuneup.js; sourceTree = "<group>"; };
 		0053EA061664A599003B49FF /* uiautomation-ext.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uiautomation-ext.js"; sourceTree = "<group>"; };
 		0053EA071664A599003B49FF /* wip.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = wip.js; sourceTree = "<group>"; };
+		0053EA1C1664DF8E003B49FF /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
 		9123771F165F8119006A9467 /* HelloGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91237723165F8119006A9467 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91237725165F8119006A9467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -210,6 +212,7 @@
 		91237714165F8119006A9467 = {
 			isa = PBXGroup;
 			children = (
+				0053EA1C1664DF8E003B49FF /* build.xml */,
 				91237729165F8119006A9467 /* HelloGitHub */,
 				00406C0316634884003C6B76 /* HelloGitHubTests */,
 				91237722165F8119006A9467 /* Frameworks */,
@@ -352,6 +355,7 @@
 				0053EA091664A599003B49FF /* 1.run.zip in Resources */,
 				0053EA0C1664A599003B49FF /* LICENSE in Resources */,
 				0053EA0D1664A599003B49FF /* run-test in Resources */,
+				0053EA1D1664DF8E003B49FF /* build.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

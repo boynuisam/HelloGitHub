@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project name="Teledata" default="adhoc-build" basedir=".">
+    
+    <property name="devtools" value="/devtools" />
+        
+    
+    <target name="base">
+        <echo message="Unlock keychain..."/>
+        <exec executable="security">
+            <arg value="unlock-keychain"/>
+            <arg value="-p"/>
+            <arg value="helios"/>
+            <arg value="/devtools/iOSBuild/login.keychain"/>
+        </exec>
+        
+        <echo message="Delete build dir..."/>
+        <delete dir="${basedir}/build" />
+    </target>                   
+    <target name="test" depends="base">
+        <echo message="Execute xcodebuild debug..."/>
+        
+        <exec executable="security">
+            <arg value="unlock-keychain"/>
+            <arg value="-p"/>
+            <arg value="helios"/>
+            <arg value="/devtools/iOSBuild/login.keychain"/>
+        </exec>
+        
+        <exec executable="xcodebuild">
+            <arg value="-target"/>
+            <arg value="iTeledata"/>
+            <arg value="-sdk"/>
+            <arg value="iphonesimulator5.1"/>
+            <arg value="-configuration"/>
+            <arg value="Debug"/>
+            <arg value="build"/>
+        </exec>
+        
+        <mkdir dir="${basedir}/build/TestUIResult" />
+        
+        <exec executable="instruments">
+            <arg value="-t"/>
+            <arg value="${devtools}/iOSBuild/Automation.tracetemplate"/>
+            <arg value="${basedir}/build/Debug-iphonesimulator/Teledata.app/"/>
+            <arg value="-e"/>
+            <arg value="UIASCRIPT"/>
+            <arg value="${basedir}/ui_testing/wip.js"/>
+            <arg value="-e"/>
+            <arg value="UIARESULTSPATH" />
+            <arg value="${basedir}/build/TestUIResult"/>
+            
+        </exec>
+        
+    </target>
+    
+</project>
