@@ -24,6 +24,8 @@
         </exec>
         
         <exec executable="xcodebuild">
+            <arg value="ARCHS=i386" />
+            <arg value="ONLY_ACTIVE_ARCH=NO" />
             <arg value="-target"/>
             <arg value="HelloGitHub"/>
             <arg value="-sdk"/>
