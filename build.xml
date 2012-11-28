@@ -2,7 +2,7 @@
 <project name="HelloGitHub" default="Debug" basedir=".">
     
     <property name="devtools" value="/devtools" />
-        
+    
     
     <target name="base">
         <echo message="Unlock keychain..."/>
@@ -11,8 +11,8 @@
             <arg value="-p"/>
             <arg value="helios"/>
             <arg value="/devtools/iOSBuild/login.keychain"/>
-        </exec>        
-    </target>                   
+        </exec>
+    </target>
     <target name="test" depends="base">
         <echo message="Execute xcodebuild debug..."/>
         
@@ -32,7 +32,7 @@
             <arg value="Debug"/>
             <arg value="build"/>
         </exec>
-                
+        
         <exec executable="instruments">
             <arg value="-t"/>
             <arg value="${devtools}/iOSBuild/Automation.tracetemplate"/>
