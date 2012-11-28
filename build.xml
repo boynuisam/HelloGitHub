@@ -36,7 +36,7 @@
         <exec executable="instruments">
             <arg value="-t"/>
             <arg value="${devtools}/iOSBuild/Automation.tracetemplate"/>
-            <arg value="${basedir}/build/Debug-iphonesimulator/Teledata.app/"/>
+            <arg value="${basedir}/build/Debug-iphonesimulator/HelloGitHub.app/"/>
             <arg value="-e"/>
             <arg value="UIASCRIPT"/>
             <arg value="${basedir}/ui_testing/wip.js"/>
