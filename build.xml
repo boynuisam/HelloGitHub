@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<project name="Teledata" default="adhoc-build" basedir=".">
+<project name="HelloGitHub" default="Debug" basedir=".">
     
     <property name="devtools" value="/devtools" />
         
