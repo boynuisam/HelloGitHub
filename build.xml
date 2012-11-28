@@ -48,4 +48,32 @@
         
     </target>
     
+    <target name="adhoc-build" depends="base">
+        <echo message="Building HelloGitHub"/>
+        
+        <echo message="Execute xcodebuild..."/>
+        <exec executable="xcodebuild">
+            <arg value="-target"/>
+            <arg value="HelloGitHub"/>
+            <arg value="-sdk"/>
+            <arg value="iphoneos"/>
+            <arg value="-configuration"/>
+            <arg value="Ad-Hoc"/>
+            <arg value="build"/>
+        </exec>
+        
+        <echo message="PackageApplication ipa..."/>
+        <exec executable="xcrun">
+            <arg value="-sdk"/>
+            <arg value="iphoneos"/>
+            <arg value="PackageApplication"/>
+            <arg value="-v"/>
+            <arg value="${basedir}/build/Ad-Hoc-iphoneos/HelloGitHub.app"/>
+            <arg value="-o"/>
+            <arg value="${basedir}/build/HelloGitHub.ipa"/>
+        </exec>
+        
+        <echo message="Build completed."/>
+    </target>
+    
 </project>
