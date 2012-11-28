@@ -63,7 +63,16 @@
         </exec>
         
         <echo message="PackageApplication ipa..."/>
-                
+        <exec executable="xcrun">
+            <arg value="-sdk"/>
+            <arg value="iphoneos"/>
+            <arg value="PackageApplication"/>
+            <arg value="-v"/>
+            <arg value="${basedir}/build/Release-iphoneos/HelloGitHub.app"/>
+            <arg value="-o"/>
+            <arg value="${basedir}/build/HelloGitHub.ipa"/>
+        </exec>
+        
         <echo message="Build completed."/>
     </target>
     
