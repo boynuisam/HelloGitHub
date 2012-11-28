@@ -37,16 +37,6 @@
 		91237740165F8119006A9467 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9123773F165F8119006A9467 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00F705CD1665EA2500BE92CD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 91237716165F8119006A9467 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9123771E165F8119006A9467;
-			remoteInfo = HelloGitHub;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		00406BFE16634884003C6B76 /* HelloGitHubTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloGitHubTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00406BFF16634884003C6B76 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -293,7 +283,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				00F705CE1665EA2500BE92CD /* PBXTargetDependency */,
 			);
 			name = HelloGitHubTests;
 			productName = HelloGitHubTests;
@@ -416,14 +405,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		00F705CE1665EA2500BE92CD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9123771E165F8119006A9467 /* HelloGitHub */;
-			targetProxy = 00F705CD1665EA2500BE92CD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		00406C0616634884003C6B76 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -455,7 +436,7 @@
 		00406C0D16634884003C6B76 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloGitHub.app/HelloGitHub";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -473,7 +454,7 @@
 		00406C0E16634884003C6B76 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HelloGitHub.app/HelloGitHub";
+				BUNDLE_LOADER = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
@@ -543,7 +524,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloGitHub/HelloGitHub-Prefix.pch";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = "HelloGitHub/HelloGitHub-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -555,7 +536,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloGitHub/HelloGitHub-Prefix.pch";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
 				INFOPLIST_FILE = "HelloGitHub/HelloGitHub-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
