@@ -24,6 +24,7 @@
 		0053EA111664A599003B49FF /* uiautomation-ext.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA061664A599003B49FF /* uiautomation-ext.js */; };
 		0053EA121664A599003B49FF /* wip.js in Sources */ = {isa = PBXBuildFile; fileRef = 0053EA071664A599003B49FF /* wip.js */; };
 		0053EA1D1664DF8E003B49FF /* build.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0053EA1C1664DF8E003B49FF /* build.xml */; };
+		00BE52CB166DD50C002E6A7A /* TestDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BE52CA166DD50C002E6A7A /* TestDelete.m */; };
 		91237724165F8119006A9467 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237723165F8119006A9467 /* UIKit.framework */; };
 		91237726165F8119006A9467 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237725165F8119006A9467 /* Foundation.framework */; };
 		91237728165F8119006A9467 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91237727165F8119006A9467 /* CoreGraphics.framework */; };
@@ -57,6 +58,8 @@
 		0053EA061664A599003B49FF /* uiautomation-ext.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "uiautomation-ext.js"; sourceTree = "<group>"; };
 		0053EA071664A599003B49FF /* wip.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = wip.js; sourceTree = "<group>"; };
 		0053EA1C1664DF8E003B49FF /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
+		00BE52C9166DD50C002E6A7A /* TestDelete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDelete.h; sourceTree = "<group>"; };
+		00BE52CA166DD50C002E6A7A /* TestDelete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDelete.m; sourceTree = "<group>"; };
 		9123771F165F8119006A9467 /* HelloGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91237723165F8119006A9467 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91237725165F8119006A9467 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -250,6 +253,8 @@
 				9123773E165F8119006A9467 /* ViewController.h */,
 				9123773F165F8119006A9467 /* ViewController.m */,
 				9123772A165F8119006A9467 /* Supporting Files */,
+				00BE52C9166DD50C002E6A7A /* TestDelete.h */,
+				00BE52CA166DD50C002E6A7A /* TestDelete.m */,
 			);
 			path = HelloGitHub;
 			sourceTree = "<group>";
@@ -400,6 +405,7 @@
 				0053EA101664A599003B49FF /* tuneup.js in Sources */,
 				0053EA111664A599003B49FF /* uiautomation-ext.js in Sources */,
 				0053EA121664A599003B49FF /* wip.js in Sources */,
+				00BE52CB166DD50C002E6A7A /* TestDelete.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
