@@ -15,6 +15,7 @@
     // Override point for customization after application launch.
     NSLog(@"truongdev");
     NSLog(@"truongdev1");
+    NSLog(@"truongdev2");
     return YES;
 }
 							
