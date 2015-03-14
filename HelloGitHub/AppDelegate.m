@@ -16,6 +16,7 @@
     NSLog(@"truongdev");
     NSLog(@"truongdev1");
     NSLog(@"truongdev2");
+    NSLog(@"truongdev3");
     return YES;
 }
 							
